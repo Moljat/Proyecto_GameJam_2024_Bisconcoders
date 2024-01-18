@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=3 uid="uid://cyfbjvm4x7bs7"]
+
+[ext_resource type="Texture2D" uid="uid://dhxw3010auajv" path="res://Assets/slime-1.png.png" id="1_0rstw"]
+[ext_resource type="Texture2D" uid="uid://cgm5epavtj77v" path="res://Assets/slime-2.png.png" id="2_s4il3"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_arlut"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_0rstw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_s4il3")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_40es5"]
+radius = 24.0832
+
+[node name="Area2D" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(579, 302)
+scale = Vector2(0.1, 0.1)
+sprite_frames = SubResource("SpriteFrames_arlut")
+animation = &"Idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(579, 302)
+shape = SubResource("CircleShape2D_40es5")
