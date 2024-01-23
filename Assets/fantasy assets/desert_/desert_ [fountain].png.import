@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cgm5epavtj77v"
-path="res://.godot/imported/slime-2.png.png-0c0dcba8f91403fa671cd4caab7ba00a.ctex"
+uid="uid://ctyjd8v71o27o"
+path="res://.godot/imported/desert_ [fountain].png-118faae8b2299c3ef60696af7d310d9d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/slime-2.png.png"
-dest_files=["res://.godot/imported/slime-2.png.png-0c0dcba8f91403fa671cd4caab7ba00a.ctex"]
+source_file="res://Assets/fantasy assets/desert_/desert_ [fountain].png"
+dest_files=["res://.godot/imported/desert_ [fountain].png-118faae8b2299c3ef60696af7d310d9d.ctex"]
 
 [params]
 

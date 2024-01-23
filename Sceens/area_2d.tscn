@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://cyfbjvm4x7bs7"]
 
-[ext_resource type="Texture2D" uid="uid://dhxw3010auajv" path="res://Assets/slime-1.png.png" id="1_0rstw"]
-[ext_resource type="Texture2D" uid="uid://cgm5epavtj77v" path="res://Assets/slime-2.png.png" id="2_s4il3"]
+[ext_resource type="Texture2D" uid="uid://dhxw3010auajv" path="res://Assets/pjAssets/slime-1.png.png" id="1_0rstw"]
+[ext_resource type="Texture2D" uid="uid://cgm5epavtj77v" path="res://Assets/pjAssets/slime-2.png.png" id="2_s4il3"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_arlut"]
 animations = [{
