@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cahi1akg3qgbd"
-path="res://.godot/imported/slime-3.png.png-2cbdb21cb3cd8f8dca678b2e1f8a2a6f.ctex"
+uid="uid://be4on1r3fl0kc"
+path="res://.godot/imported/tundraPath_.png-5a4d203295ed54e4c32dab29fb60273f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/slime-3.png.png"
-dest_files=["res://.godot/imported/slime-3.png.png-2cbdb21cb3cd8f8dca678b2e1f8a2a6f.ctex"]
+source_file="res://Assets/fantasy assets/tundra_/tundraPath_.png"
+dest_files=["res://.godot/imported/tundraPath_.png-5a4d203295ed54e4c32dab29fb60273f.ctex"]
 
 [params]
 

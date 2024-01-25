@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dhxw3010auajv"
-path="res://.godot/imported/slime-1.png.png-02decc050dd0a1fb1119d8c4720d4de7.ctex"
+uid="uid://86kdui7ore1l"
+path="res://.godot/imported/igloo_.png-54e796e7c39789c628b7c3a0dfb19d11.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/slime-1.png.png"
-dest_files=["res://.godot/imported/slime-1.png.png-02decc050dd0a1fb1119d8c4720d4de7.ctex"]
+source_file="res://Assets/fantasy assets/tundra_/igloo_.png"
+dest_files=["res://.godot/imported/igloo_.png-54e796e7c39789c628b7c3a0dfb19d11.ctex"]
 
 [params]
 
