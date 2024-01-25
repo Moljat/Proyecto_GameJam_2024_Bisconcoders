@@ -1,13 +1,14 @@
 extends Area2D
 
-
 @export var speed = 300
 var screen_size
 var i = false
+var camera
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	screen_size = get_viewport_rect().size
-
+	camera = $Camara  # Ajusta la ruta según la jerarquía de nodos de tu escena
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
@@ -25,9 +26,7 @@ func _process(delta):
 
 	if velocity.length() > 0:
 		velocity = velocity.normalized() * speed
-	
-	
-	
+		
 	position += velocity * delta
 	position = position.clamp(Vector2.ZERO, screen_size)
 	
@@ -38,7 +37,6 @@ func _process(delta):
 	elif velocity.x != 0:
 		$AnimatedSprite2D.animation = "Caminar"
 		$AnimatedSprite2D.flip_h = false
-		# See the note below about boolean assignment.
 		$AnimatedSprite2D.flip_h = velocity.x < 0
 		if velocity.x < 0:
 			i = true
@@ -46,4 +44,9 @@ func _process(delta):
 			i = false
 	elif velocity.y != 0:
 		$AnimatedSprite2D.animation = "Idle"
+	
+
+
+
+
 

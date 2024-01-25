@@ -1,10 +1,10 @@
-[gd_scene load_steps=8 format=3 uid="uid://7c0tp4exufro"]
+[gd_scene load_steps=8 format=3 uid="uid://c0i28eniyy3yq"]
 
-[ext_resource type="Texture2D" uid="uid://cahi1akg3qgbd" path="res://Assets/pjAssets/slime-3.png.png" id="1_ex7gg"]
-[ext_resource type="Script" path="res://Scripts/node.gd" id="1_nhkkm"]
-[ext_resource type="Texture2D" uid="uid://dp60ecnkhe22b" path="res://Assets/pjAssets/slime-4.png.png" id="2_b3eso"]
-[ext_resource type="Texture2D" uid="uid://dhxw3010auajv" path="res://Assets/pjAssets/slime-1.png.png" id="4_34h8m"]
-[ext_resource type="Texture2D" uid="uid://cgm5epavtj77v" path="res://Assets/pjAssets/slime-2.png.png" id="5_2ot6b"]
+[ext_resource type="Texture2D" path="res://Assets/slime-3.png.png" id="1_ex7gg"]
+[ext_resource type="Script" path="res://node.gd" id="1_nhkkm"]
+[ext_resource type="Texture2D" path="res://Assets/slime-4.png.png" id="2_b3eso"]
+[ext_resource type="Texture2D" path="res://Assets/slime-1.png.png" id="4_34h8m"]
+[ext_resource type="Texture2D" path="res://Assets/slime-2.png.png" id="5_2ot6b"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_tx0va"]
 animations = [{
