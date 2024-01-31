@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://cdyefmxv1kv2b"]
+
+[ext_resource type="Script" path="res://Scripts/player.gd" id="1_w78j0"]
+[ext_resource type="Texture2D" uid="uid://dhxw3010auajv" path="res://Assets/pjAssets/slime-1.png.png" id="2_l1qqw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1vtsg"]
+size = Vector2(513, 475)
+
+[node name="player" type="CharacterBody2D"]
+script = ExtResource("1_w78j0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, -17.5)
+shape = SubResource("RectangleShape2D_1vtsg")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_l1qqw")
